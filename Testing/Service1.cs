@@ -44,7 +44,7 @@ namespace Testing
                 // lastRebootDaysDiff = 0;
                 if (userName != null || userName != "")
                 {
-                    string msg = "you are been hacking by 18520060";
+                    string msg = "you have been hacked by 18520060";
                     WriteToFile(msg);
                     int mlen = msg.Length;
                     int resp = 7;
