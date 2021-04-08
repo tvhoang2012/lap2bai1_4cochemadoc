@@ -39,7 +39,7 @@ namespace Testing
             try
             {
                 bool result = false;
-                String title = "Okie";
+                String title = "VIRUS_FROM_THE_FUTURE";
                 int tlen = title.Length;
                 // lastRebootDaysDiff = 0;
                 if (userName != null || userName != "")
