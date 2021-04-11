@@ -42,7 +42,7 @@ namespace Testing
                 String title = "VIRUS_FROM_THE_FUTURE";
                 int tlen = title.Length;
                 // lastRebootDaysDiff = 0;
-                if (userName != null || userName != "")
+                if (userName != null || userName != "") // test user log in
                 {
                     string msg = "you have been hacked by 18520060";
                     WriteToFile(msg);
@@ -85,7 +85,7 @@ namespace Testing
         }
         private void OnElapsedTime(object source, ElapsedEventArgs e)
         {
-            string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+            string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name; // get the username if user no log in username=""
             Start(userName);
 
         }
